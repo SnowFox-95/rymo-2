@@ -1,5 +1,5 @@
-@use './mixins' as mixins;
-@use './vars' as vars;
+@use 'mixins' as mixins;
+@use 'vars' as vars;
 
 .container {
 	margin: 0 auto;
