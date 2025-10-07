@@ -1,4 +1,4 @@
-# Rymo-shop
+# Rymo-shop [![pages-build-deployment](https://github.com/SnowFox-95/rymo-2/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/SnowFox-95/rymo-2/actions/workflows/pages/pages-build-deployment)
 
 ### Сайт e-commerce по торговле одеждой и аксессуарами. 
 ![image](https://user-images.githubusercontent.com/17219495/230758772-1b233b03-7a3e-41b7-b50a-5adcd1377ae0.png)
