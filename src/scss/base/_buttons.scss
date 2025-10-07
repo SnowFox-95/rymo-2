@@ -1,0 +1,27 @@
+@use "vars" as vars;
+button{
+  font-size: vars.$font-size-xs;
+  font-weight: vars.$font-weight-bold;
+  outline: none;
+  border: none;
+  background-color: vars.$primary;
+  color: vars.$secondary;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: vars.$transition;
+  &:hover{
+    background-color: vars.$accent;
+  }
+}
+
+.buy-btn{
+  background: vars.$accent;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: vars.$transition;
+  &:hover{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

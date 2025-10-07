@@ -1,17 +1,14 @@
 @use 'vars' as vars;
 
-html {
-    scroll-behavior: smooth;
+a {
+  transition: vars.$transition;
 }
 
-body {
-    // Для поддержки SCSS-переменных и CSS custom properties одновременно:
-    background-color: vars.$page-bg;         // SCSS-переменная
-    color: vars.$text-color;                 // SCSS-переменная
-    font-family: vars.$font-main;            // SCSS-переменная
+.star {
+  padding: vars.$spacing-md 0;
 
-    // Если хотите оставить поддержку динамических тем через custom properties:
-    // background-color: var(--page-bg);
-    // color: var(--text-color);
-    // font-family: var(--font-main);
+  i {
+    font-size: vars.$font-size-sm;
+    color: goldenrod;
+  }
 }

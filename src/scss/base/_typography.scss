@@ -1,0 +1,38 @@
+@use 'vars' as vars;
+
+h1 {
+  font-size: vars.$font-size-4xl;
+  font-weight: vars.$font-weight-bold;
+}
+
+h2 {
+  font-size: vars.$font-size-3xl;
+  font-weight: vars.$font-weight-semibold;
+}
+
+h3 {
+  font-size: vars.$font-size-xl;
+  font-weight: vars.$font-weight-black;
+}
+
+h4 {
+  font-size: vars.$font-size-lg;
+  font-weight: vars.$font-weight-semibold;
+}
+
+h5 {
+  font-size: vars.$font-size-base;
+  font-weight: vars.$font-weight-normal;
+  color: vars.$text-color;
+}
+
+h6 {
+  color: vars.$text-muted-color;
+}
+
+hr {
+  width: 30px;
+  height: 2px;
+  background-color: vars.$accent;
+
+}

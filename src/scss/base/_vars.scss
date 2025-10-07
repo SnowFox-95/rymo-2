@@ -1,37 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-:root {
-	--container-width: 1200px;
-	--container-padding: 15px;
-
-	--font-main: 'Poppins', sans-serif;
-	--font-accent: 'Playfair Display', serif;
-
-	--page-bg: #fff;
-	--text-color: #000;
-	--accent: #ac182c;
-
-	--laptop-size: 1199px;
-	--tablet-size: 959px;
-	--mobile-size: 599px;
-}
-
-.dark {
-	--page-bg: #252526;
-	--text-color: #fff;
-}
-
-// SCSS-переменные для использования в миксинах, медиа-запросах и т.д.
-$container-width: 1200px;
-$container-padding: 15px;
-
-$font-main: 'Poppins', sans-serif;
-$font-accent: 'Playfair Display', serif;
-
-$page-bg: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+//Colors
+$primary: #1d1d1d;
+$secondary: #fff;
 $text-color: #000;
-$accent: #ac182c;
+$text-light-color: #666;
+$text-muted-color: #999;
+$accent: coral;
+$hover: #3a3833;
 
-$laptop-size: 1199px;
-$tablet-size: 959px;
-$mobile-size: 599px;
+
+//Background
+$bg-light: #f8f9fa;
+$bg-white: #fff;
+$bg-dark: #222;
+$bg-overlay-light: rgba(245, 175, 178, .7);
+
+//Sizes
+$navbar-height: 70px;
+$mobile-navbar-height: 60px;
+
+//Fonts
+$font-family: 'Poppins', sans-serif;
+
+$font-size-xs: 0.8rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-size-2xl: 1.5rem;
+$font-size-3xl: 2rem;
+$font-size-4xl: 2.5rem;
+
+$font-weight-light: 200;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+//Shadows
+$shadow-nav: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+//Transitions
+$transition: 0.3s ease;
+
+//Padding
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-xxl: 3rem;
