@@ -1,0 +1,1 @@
+!function(){"use strict";console.log("Rymo on Gulp loaded"),function(){const e=document.querySelector("#MainImg"),n=document.querySelector(".small-img");e&&n.length?n.forEach(n=>{n.addEventListener("click",()=>{e.src=n.src})}):console.warn("Image switcher elements not found!")}()}();
